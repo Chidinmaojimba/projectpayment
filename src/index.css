@@ -1,0 +1,131 @@
+*{  margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+   height: 100vh;
+   
+}
+
+.container{
+ display: flex;
+  height: 100vh; 
+ 
+
+ 
+}
+
+form h1 {
+font-weight: 700;
+font-style: Bold;
+font-size: 40px;
+line-height: 100%;
+color: #452B56;
+}
+
+form h4 {
+font-weight: 400;
+font-style: Regular;
+font-size: 16px;
+line-height: 100%;
+color: #161A1A;
+}
+
+form p {
+font-weight: 400;
+font-style: Regular;
+font-size: 16px;
+line-height: 100%;
+color: #161A1A;
+}
+
+input::placeholder {
+font-weight: 400;
+font-style: Regular;
+font-size: 16px;
+line-height: 100%;
+color: #999D9D;
+}
+
+.inner-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 25px;
+        width: 100%;
+    
+   
+}
+
+
+
+
+.left-container {
+ width: 50%;
+}
+.my-blueframe{
+ width: 556px;
+ height: 924px;
+}
+
+
+
+.right-container {
+width: 40%;
+background-color: white;
+display: flex;
+justify-content: space-around;
+align-items: center;
+gap: 2rem;  
+
+
+}
+
+.row {
+    display: flex;
+    gap:10px;
+   
+}
+.row-write{
+ display: block;
+      
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border-radius:6px ;
+    border: 1px solid black;
+}
+
+button {
+width: 503px;
+height: 56px;
+gap: 10px;
+border-radius: 24px;
+padding: 17px 48px 17px 48px;
+background:  #6ACBD0;
+border: none;
+color: white;
+}
+
+
+.login {
+    text-align: center;
+    margin-top: 10px;
+}
+
+a {
+  color: #6ACBD0;
+  text-decoration: none; /* removes underline */
+font-weight: 400;
+font-style: Regular;
+font-size: 16px;
+line-height: 100%;
+text-align: center;
+}
+
+
+
