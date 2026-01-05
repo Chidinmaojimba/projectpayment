@@ -1,6 +1,9 @@
 import blue from "../assets/blueframe1.png";
+import { useNavigate } from "react-router-dom";
+
 
 const Signup = () => {
+    const navigate = useNavigate();
     return ( 
         <div>
           <div className="container">
@@ -10,7 +13,13 @@ const Signup = () => {
                         </div>
                         <div className="right-container">
                             {/* <h1>Create an account</h1> */}
+                        
+                         <div className="auth-card">
+                            
                          <form>
+
+                        
+             
                           <h1>Create an account</h1>
                            <div className="row">
                             <div className="row-write">
@@ -30,10 +39,16 @@ const Signup = () => {
                             <input type="password" placeholder="Pluss124"/>
                             <p>Use 8 or more characters with a mix of numbers, letters & symbols    </p>
 
-                            <button>Create Account</button>
+                            {/* <button>Create Account</button> */}
+
+                            <button  className="backBttn" onClick={() => navigate("/phoneNumberAut")}>
+                            Create Account
+                            </button>
                             <p className="login">Already have an account?<a href="">Sign in</a></p>
 
                          </form>
+
+                         </div>
 
                         </div>
                 </div>

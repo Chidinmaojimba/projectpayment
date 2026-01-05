@@ -1,0 +1,19 @@
+/* 
+
+.fill-password {
+    display: flex;
+    gap:10px;
+    margin-top: 25px;
+}
+
+.fill-password div {
+    background: #6ACBD0;
+    width: 92px;
+    height: 6px;
+    border-radius: 4px;
+}
+
+.fill-password div:nth-child(4),
+.fill-password div:nth-child(3){
+    background: #F3F2F2;
+} */

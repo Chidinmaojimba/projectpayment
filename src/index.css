@@ -11,6 +11,7 @@ body{
 .container{
  display: flex;
   height: 100vh; 
+  margin-top: 100px;
  
 
  
@@ -53,9 +54,7 @@ color: #999D9D;
         align-items: center;
         justify-content: center;
         margin-top: 25px;
-        width: 100%;
-    
-   
+        width: 100%; 
 }
 
 
@@ -63,13 +62,38 @@ color: #999D9D;
 
 .left-container {
  width: 50%;
+
 }
-.my-blueframe{
+.my-blueframe,
+.my-visacard, 
+.my-lappy{
  width: 556px;
  height: 924px;
 }
 
+/* .auth-card {
+  width: 420px;
+  min-height: 600px;
+  background: white;
+  padding: 40px;
+  border-radius: 20px;
+  position: relative;
+  overflow: hidden;
+ 
+}
 
+
+.auth-card::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 120px;
+  height: 120px;
+  background: #6ACBD0; 
+  clip-path: polygon(100% 0, 0 0, 100% 100%);
+}
+ */
 
 .right-container {
 width: 40%;
@@ -77,9 +101,19 @@ background-color: white;
 display: flex;
 justify-content: space-around;
 align-items: center;
-gap: 2rem;  
+flex-direction: column;
+/* gap: 2rem;   */
+}
 
+form {
+    gap:15px;
+    display: flex;
+    flex-direction: column;
+}
 
+.flex-box {
+    gap:20px;
+    display: flex;
 }
 
 .row {
@@ -100,7 +134,7 @@ input {
     border: 1px solid black;
 }
 
-button {
+.backBttn {
 width: 503px;
 height: 56px;
 gap: 10px;
@@ -126,6 +160,154 @@ font-size: 16px;
 line-height: 100%;
 text-align: center;
 }
+
+.right-container h1 {
+ font-weight: 700;
+font-style: Bold;
+font-size: 40px;
+line-height: 100%;
+color: #452B56;
+align-items: center;
+}
+
+.blue {
+        width: 647px;
+height: 260px;
+/* angle: -56.42 deg; */
+opacity: 1;
+/* top: -163.01px; */
+top: -100px;
+left: 1217.19px;
+background: #6ACBD0;
+}
+
+.right-container h6 {
+font-weight: 600;
+font-style: SemiBold;
+font-size: 16px;    
+line-height: 100%;
+letter-spacing: 0%;
+text-align: left;
+}
+span {
+    color: #6ACBD0;
+}
+
+/* .right-container h6,
+.right-container p {
+    text-align: left;
+} */
+
+.fill-password {
+    display: flex;
+    gap:10px;
+    margin-top: 25px;
+}
+
+.fill-password div {
+    background: #6ACBD0;
+    width: 92px;
+    height: 6px;
+    border-radius: 4px;
+}
+
+.fill-password div:nth-child(4),
+.fill-password div:nth-child(3){
+    background: #F3F2F2;
+}
+
+.ring-btn {
+  width:20px;
+  height: 25px;
+  border-radius: 50%;
+  border: 1px solid #452B56;
+  background: transparent;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+}
+
+/* .heading {
+    display: flex;
+} */
+
+.pha h3 {  
+font-weight: 700;
+font-style: Bold;
+font-size: 32px;
+line-height: 100%;
+text-align: center;
+}
+
+.social-login {
+    display: flex;
+    gap:10px;
+}
+
+.social-google,
+.social-facebook {
+width: 246px;
+height: 56px;
+border-radius: 24px;
+border-width: 1px;
+gap: 10px;
+padding: 17px 48px 17px 48px;
+border: 1px solid #6ACBD0;
+background: transparent;
+}
+
+/* .divider {
+  text-align: center;
+  margin: 15px 0;
+  color: #64748b;
+  font-size: 13px;
+}
+
+.divider span{
+ color: #161A1A;
+font-weight: 400;
+font-style: Regular;
+font-size: 16px;
+}
+
+span::after {
+    width: 172px;
+height: 0px;
+border-width: 1px;
+} */
+
+.divider {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: black;
+  font-size: 16px;
+  margin: 20px 0;
+}
+
+.divider::before,
+.divider::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: #999D9D;
+}
+
+.divider::before {
+  margin-right: 10px;
+}
+
+.divider::after {
+  margin-left: 10px;
+}
+
+
+ 
+
+
+
 
 
 
