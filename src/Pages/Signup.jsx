@@ -14,12 +14,9 @@ const Signup = () => {
                         <div className="right-container">
                             {/* <h1>Create an account</h1> */}
                         
-                         <div className="auth-card">
+                       
                             
-                         <form>
-
-                        
-             
+                         <form>             
                           <h1>Create an account</h1>
                            <div className="row">
                             <div className="row-write">
@@ -48,7 +45,7 @@ const Signup = () => {
 
                          </form>
 
-                         </div>
+                        
 
                         </div>
                 </div>

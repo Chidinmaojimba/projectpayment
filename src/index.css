@@ -1,20 +1,18 @@
 *{  margin:0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Manrope; 
     
 }
 body{
-   height: 100vh;
-   
+   height: 100vh; 
 }
 
 .container{
  display: flex;
   height: 100vh; 
   margin-top: 100px;
- 
-
- 
+  width: 100%;
 }
 
 form h1 {
@@ -63,52 +61,44 @@ color: #999D9D;
 .left-container {
  width: 50%;
 
-}
-.my-blueframe,
-.my-visacard, 
-.my-lappy{
- width: 556px;
- height: 924px;
-}
 
-/* .auth-card {
-  width: 420px;
-  min-height: 600px;
-  background: white;
-  padding: 40px;
-  border-radius: 20px;
-  position: relative;
-  overflow: hidden;
- 
 }
 
 
-.auth-card::after {
-  content: "";
+.diagonal {
   position: absolute;
   top: 0;
   right: 0;
-  width: 120px;
-  height: 120px;
-  background: #6ACBD0; 
-  clip-path: polygon(100% 0, 0 0, 100% 100%);
+  width: 250px;
+  height: 180px;
+  background: #6ACBD0;
+
+  clip-path: polygon(
+    100% 0,
+    0 0,
+    100% 100%
+  );
 }
- */
+
 
 .right-container {
-width: 40%;
-background-color: white;
+width: 50%;
+/* background-color: white; */
 display: flex;
 justify-content: space-around;
 align-items: center;
 flex-direction: column;
-/* gap: 2rem;   */
+padding: 60px;
 }
+
+
+
 
 form {
     gap:15px;
     display: flex;
     flex-direction: column;
+    max-width: 100%;
 }
 
 .flex-box {
@@ -130,7 +120,8 @@ input {
     width: 100%;
     padding: 12px;
     margin-bottom: 15px;
-    border-radius:6px ;
+    border-radius:12px ;
+    height: 48px;
     border: 1px solid black;
 }
 
@@ -170,16 +161,6 @@ color: #452B56;
 align-items: center;
 }
 
-.blue {
-        width: 647px;
-height: 260px;
-/* angle: -56.42 deg; */
-opacity: 1;
-/* top: -163.01px; */
-top: -100px;
-left: 1217.19px;
-background: #6ACBD0;
-}
 
 .right-container h6 {
 font-weight: 600;
@@ -256,27 +237,13 @@ gap: 10px;
 padding: 17px 48px 17px 48px;
 border: 1px solid #6ACBD0;
 background: transparent;
+cursor: pointer;
+display:flex;
+align-items: center;
+justify-content: center;
 }
 
-/* .divider {
-  text-align: center;
-  margin: 15px 0;
-  color: #64748b;
-  font-size: 13px;
-}
 
-.divider span{
- color: #161A1A;
-font-weight: 400;
-font-style: Regular;
-font-size: 16px;
-}
-
-span::after {
-    width: 172px;
-height: 0px;
-border-width: 1px;
-} */
 
 .divider {
   display: flex;

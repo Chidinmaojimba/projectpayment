@@ -15,7 +15,10 @@ const Phonenumbertwo = () => {
                                         </div>
                                         
                                         <div className="right-container">
+<div className="diagonal"></div>
+                                           
                                           <form>
+                                            
                                            <div className="heading">
                                             
                                        <button className="ring-btn" >    <img src={arrow} alt="arrow" className="arrow"/></button>

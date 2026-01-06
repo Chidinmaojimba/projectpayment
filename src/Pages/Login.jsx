@@ -14,7 +14,9 @@ const Login = () => {
                                   <img src={lappy} alt="My lappy" className="my-lappy"/>
                               </div>
                               <div className="right-container">
-                                  {/* <h1>Create an account</h1> */}
+
+                                <div className="diagonal"></div>
+                                  
                                <form>
                                 <h1>Login to your Account</h1>
                                 <p className="subtitle">Welcome back! Select method to log in</p>

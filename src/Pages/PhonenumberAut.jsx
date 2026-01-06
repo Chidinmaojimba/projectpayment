@@ -17,6 +17,8 @@ const PhoneNumberAut = () => {
                                 
                                 <div className="right-container">
 
+                                    <div className="diagonal"></div>
+
                                     <form>
 
                                    <div className="heading">
