@@ -38,7 +38,7 @@ const PhoneNumberAut = () => {
                                     {/* <div></div> */}
                                     </div>
                                      <div className="row-write">
-                                    <p>7</p>
+                                    <p>9</p>
                                     {/* <div></div> */}
                                     </div>
                                     <div></div>

@@ -109,11 +109,27 @@ form {
 .row {
     display: flex;
     gap:10px;
+    width: 100%;
    
 }
 .row-write{
- display: block;
-      
+ display: block;    
+}
+
+.row-write h4{
+margin-bottom: 10px;
+}
+
+.row-write p{
+  margin-top: -17px;
+  text-align: center;
+  font-weight: 600;
+  font-style: SemiBold;
+  font-size: 16px;
+  line-height: 100%;
+
+
+
 }
 
 input {
