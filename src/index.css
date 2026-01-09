@@ -150,6 +150,7 @@ padding: 17px 48px 17px 48px;
 background:  #6ACBD0;
 border: none;
 color: white;
+cursor: pointer;
 }
 
 
@@ -284,6 +285,33 @@ justify-content: center;
 
 .divider::after {
   margin-left: 10px;
+}
+
+
+
+
+
+@media  (max-width: 768px) {
+.inner-container {
+  flex-direction: column;
+}
+
+.left-container,
+.right-container {
+  width: fit-content;
+
+}
+
+.diagonal{
+  display: none;
+}
+}
+
+@media  (max-width: 425px) {
+ .left-container,
+.right-container {
+  width: fit-content;
+}
 }
 
 
