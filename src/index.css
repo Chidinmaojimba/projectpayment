@@ -308,11 +308,12 @@ justify-content: center;
 }
 
 @media  (max-width: 425px) {
- .left-container,
-.right-container {
-  width: fit-content;
+.left-container{
+  width: 80%;
+  
+} 
 }
-}
+
 
 
  
