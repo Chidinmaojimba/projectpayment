@@ -291,3 +291,25 @@ span {
     width: fit-content;
   }
 }
+
+.diagonal{
+  display: none;
+}
+
+
+@media  (max-width: 425px) {
+.left-container{
+  width: 80%;
+  
+} 
+}
+
+
+
+ 
+
+
+
+
+
+
