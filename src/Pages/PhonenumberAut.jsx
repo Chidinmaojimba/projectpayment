@@ -16,16 +16,18 @@ const PhoneNumberAut = () => {
 
             <div className="right-container">
               <div className="diagonal"></div>
-
+                   <h1>
+                    Phone Number<br></br> Authentication
+                  </h1>
               <form>
                 <div className="heading">
                   <button className="ring-btn">
                     {" "}
                     <img src={arrow} alt="arrow" className="arrow" />
                   </button>
-                  <h1>
-                    Phone Number<br></br> Authentication
-                  </h1>
+                  
+                    
+
                 </div>
 
                 <div>

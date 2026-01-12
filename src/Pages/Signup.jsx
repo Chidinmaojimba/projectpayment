@@ -12,9 +12,9 @@ const Signup = () => {
           </div>
           <div className="right-container">
             {/* <h1>Create an account</h1> */}
-
+           <h1>Create an account</h1>
             <form>
-              <h1>Create an account</h1>
+             
               <div className="row">
                 <div className="row-write">
                   <h4>First Name</h4>
