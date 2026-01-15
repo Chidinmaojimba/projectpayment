@@ -4,7 +4,6 @@ import google from "../assets/google2.png";
 import facebook from "../assets/goog.png";
 import { Link } from "react-router-dom";
 
-
 const Login = () => {
   const navigate = useNavigate();
   return (
@@ -16,9 +15,8 @@ const Login = () => {
           </div>
           <div className="right-container">
             <div className="diagonal"></div>
-               <h1>Login to your Account</h1>
+            <h1>Login to your Account</h1>
             <form>
-              
               <p className="subtitle">Welcome back! Select method to log in</p>
 
               <div className="social-login">
@@ -35,17 +33,14 @@ const Login = () => {
               </div>
 
               <div className="divider"> or login with</div>
-                      
+
               <h4>Email Address</h4>
               <input type="email" placeholder="ucheobikingsley@gmail.com" />
 
               <h4>Password</h4>
               <input type="password" placeholder="Pluss124" />
 
-
-              
-
-                  {/* <p className="forgotPassword">
+              {/* <p className="forgotPassword">
                     <a
                       href="#"
                       onClick={(e) => {
@@ -57,22 +52,15 @@ const Login = () => {
                     </a>
                   </p> */}
 
-                 
-
-<p className="forgotPassword">
-  <Link to="/login">Forgot password</Link>
-</p>
-
-
-
-
+              <p className="forgotPassword">
+                <Link to="./reset">Forgot password</Link>
+              </p>
 
               {/* <p className="forgotPassword"><a href="">Forgot password</a></p> */}
               <p>
                 Agree with <a href="">Terms & Conditions</a> and{" "}
                 <a href="">Privacy Policy</a>.{" "}
               </p>
-
 
               <button
                 className="backBttn"
