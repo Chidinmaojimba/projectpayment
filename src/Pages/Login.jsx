@@ -43,24 +43,9 @@ const Login = () => {
               <input type="password" placeholder="Pluss124" />
 
 
-              
-
-                  {/* <p className="forgotPassword">
-                    <a
-                      href="#"
-                      onClick={(e) => {
-                        e.preventDefault();
-                        navigate("/reset");
-                      }}
-                    >
-                      Forgot password
-                    </a>
-                  </p> */}
-
-                 
-
+      
 <p className="forgotPassword">
-  <Link to="/login">Forgot password</Link>
+  <Link to="/reset">Forgot password</Link>
 </p>
 
 

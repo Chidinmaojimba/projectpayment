@@ -3,7 +3,10 @@ import Signup from "./Pages/Signup";
 import PhoneNumberAut from "./Pages/PhonenumberAut";
 import Phonenumbertwo from "./Pages/Phonenumbertwo";
 import Login from "./Pages/Login";
-import Reset from ".Pages/Reset";
+import Reset from "./Pages/Reset";
+import Resettwo from "./Pages/Resettwo";
+
+
 
 const App = () => {
   return (
@@ -13,6 +16,7 @@ const App = () => {
       <Route path="/phoneNumbertwo" element={<Phonenumbertwo />} />
       <Route path="/login" element={<Login />} />
       <Route path="/reset" element={<Reset />} />
+      <Route path="/resettwo" element={<Resettwo />} />
 
     </Routes>
   );
