@@ -41,8 +41,8 @@
   margin-bottom: 20px;
 }
 
-.close-btn {
-  background: #1e90ff;
+.modal-box button {
+  background: #6acbd0;
   color: #fff;
   border: none;
   padding: 10px 28px;
@@ -51,7 +51,7 @@
   font-size: 14px;
 }
 
-.close-btn:hover {
+.modal-box button:hover {
   background: #0d6efd;
 }
 
@@ -65,4 +65,10 @@
     transform: scale(1);
     opacity: 1;
   }
+}
+
+.boxmark-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

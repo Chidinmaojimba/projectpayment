@@ -59,15 +59,17 @@ const Resettwo = () => {
                 placeholder="ucheobikingsley@gmail.com"
                 required
               />
-
-              <button type="submit">Reset Password</button>
+            <button className="backBttn" onClick={() => setOpen(!open)}>Create Account</button>  
+            <button
+                  className="backBttn"
+                  onClick={() => navigate("/verification")}
+                >
+                  Verify
+                </button>
             </form>
+              
 
-            <button className="backBttn" onClick={() => navigate("/login")}>
-              Back to Login
-            </button>
 
-            <button onClick={() => setOpen(!open)}>Open Modal</button>
           </div>
         </div>
       </div>
